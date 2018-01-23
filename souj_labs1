@@ -1,0 +1,38 @@
+1.An account was created on GitHub
+
+
+
+x -to delete the unwanted char
+u -to undo  the last command 
+U -to undo the whole line 
+ctrl R -to redo
+A -end the text
+:wq -to save & exit 
+:ql -to trash all changes
+dw -to move the cursor to the beginning of the word to delete that word 
+2w -to move the cursor two words forward
+3e -to move the cursor to the end of the third word
+0 -to move to start of line
+d2w -which deletes two words...number can be changed for deleting the number of consecutive words like d3w
+dd -to delete the line and 2dd to delete to line...number can be changed for deleting the number of consecutive words
+p -puts the previously deleted text after the cursor
+r -to replace the letter
+ce -to deletes the word and places YOU in insert word
+G -to move you to the bottom of the file
+gg -to move you to the starting of the file
+% -to find the matching ),} or ]
+:s/old/new/g -to subtitute 'new' for 'old' where g is globally
+/ backward search n to find the next occurrence and N to search in opposite direction
+? -forward search
+:| -to run the shell commands like :ldir,:lls
+:w -TEST(here test is the file name what we choose.).Save the file 
+v-starts visualmode for selecting the lines and you can perfrom operations
+:r-filename will insert the contents into the current file
+R-to replace more than one character
+O-opens a line above the cursor
+a-inserts text after the cursor
+A-inserts text after the end of a word
+e-command moves to the end of a word
+Y-operator yanks
+R-enters replace mode until<ESC>is pressed
+ctrl-w to jump from one window to another
