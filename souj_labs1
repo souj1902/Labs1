@@ -1,0 +1,30 @@
+20/1/18 lab session 1
+
+x-to delete unwanted char
+u-to undo 
+ctrl r - to redo
+a- end the text
+:wq - to save & exit 
+:ql trash all change
+dw-to move the cursor to the bigning of the word 
+2w-to move the cursor two words forward
+0-to move to start of line
+d2w-which del two words
+dd-to del the line
+2dd-to delet 2 words
+p-puts del text after the cursor 
+r- to replace the letter
+ce-to delete the word and place u in insert word
+G-to move u bottom of the file
+gg-to move u to the starting of the file
+%-to find the match
+:s/old/new/g-to subtitute new for old
+/-backward serch
+?-forward search
+:|-to run the shell program
+:w-save the file
+:r-to insert content in to the current file
+R-to replace more than one character
+y-copies the file
+R-enters replace mode until esc is pressed
+ctrl w-to jump one window to another 
