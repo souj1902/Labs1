@@ -1,0 +1,52 @@
+30/1/2018- Lab session 3
+continuation of filter commands.....
+$grep -v Name CSE.csv : Removes the field which is mentioned (here name).
+$cut -d , -f 2 CSE.csv: Prints the desired fields.
+$head -c 9 CSE.csv : Prints the number the number of charecters as specified(here 9).
+$head -v CSE.csv: Prints the header for the file.
+$cut -d , -f 1 CSE.csv|grep -v USN: Prints the first column without the field USN
+1
+2
+3
+4
+5
+6
+7
+8
+Questions:
+1.$cut -d , -f 3 CSE.csv|grep -v CGPA|sort 
+10
+10
+10
+8
+8
+8
+9
+9
+9
+2.$date +%H%M
+1515
+3.$ls -l|wc -l
+7
+4. $q -c CSE.csv
+     7,Swathi ,8
+8,Neesha ,5
+9,Alisha,6
+10,Manisha,8.67
+11,Swetha,7.21
+12,Sushmitha,6.09
+13,Nikitha,8.65
+14,Divya,9.87
+15,Vidhya,7
+
+5. $tail -n 8 CSE.csv
+7,Swathi ,8
+8,Neesha ,5
+9,Alisha,6
+10,Manisha,8.67
+11,Swetha,7.21
+12,Sushmitha,6.09
+13,Nikitha,8.65
+14,Divya,9.87
+15,Vidhya,7
+

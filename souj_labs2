@@ -1,0 +1,22 @@
+23/1/18 lab session 2
+
+who - show who is logged on
+ls - list directory contentsman
+ls -l - use a long listing format
+ls -F - append indicator to entries
+ls -a - do not ignore entries starting with .
+ls -R - list subdirectories recursively
+who- who logged on 
+who u -
+cal- shows the calender
+uname-show user language(linux)
+date-displays the date
+time- displays the time
+ls-shows the file name
+ls-l show the list of directories
+ls-a shows hidden files
+ls-f classifies the file
+ls-r shows subdirectories
+
+
+
