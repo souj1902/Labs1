@@ -1,0 +1,120 @@
+20/3/18 lab session 9 
+
+USE OF SELECT COMMANDS 
+						
+Program:
+names="Sne Swathi Deeps Dipali"
+PS3='Select names'
+select qwe in  $names
+do
+    if [ $qwe == dom ]
+      then
+        break
+    fi
+    echo "hello $qwe"
+done
+
+ 1) Write a shell script to search a particular word or phrase 
+ 
+
+//echo "Enter word or phrase to be searched"
+read n
+for i in /
+do
+	find / "$n"
+
+done
+
+
+// /home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qbig5codec_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qmetaobject_moc_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qsequentialanimationgroup_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qprocess_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qisciicodec_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qicucodec_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qabstractproxymodel_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qmutexpool_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qjson_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qfunctions_p.h
+
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qringbuffer_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qsimplecodec_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qeventtransition_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qmetatypeswitcher_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qeuckrcodec_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qjnihelpers_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qurl_p.h
+/home/user/anaconda3/pkgs/qt-5.6.2-h974d657_12/include/qt/QtCore/5.6.2/QtCore/private/qjpunicode_p.h
+
+[4]+  Stopped                 ./labs9b.sh
+
+
+
+2)Write a menu driven shell script to perform different file operations 
+
+//echo "Enter your choice: \n 1) To copy the contents of a  file in another \n 2) To move one file to anoher \n 3) To display the contents of a file \n 4) To find the difference between  two files \n 5) To remove a file"
+	read l
+	case $l in
+		1)
+		echo "Enter the name of the source and destination files"
+			read a;b
+			cp()
+			{
+			    cat $1|cp $a $b
+		         }
+			 c=$(cp $1)
+					        
+		    ;;
+	        2)
+		    echo"Enter the names of the source and destination files"
+		    read a;b
+		    mv()
+		    {
+			    cat $1|mv $a $b
+		    }
+		     m=$(cp$1)
+		    ;;
+	        3)
+	          echo"Enter the name of the file to be displayed"
+                    read a
+                      cat()
+		      { 
+	                  cat $a		      
+		       }
+		       a=$(mv$1)
+		      ;;
+               4)
+		 echo"Enter the names of the files"
+		 read a;b
+		 di()
+		 {
+			 cat $1|diff $a $b
+		 } 
+		 d=$(diff $a $b)
+		 ;;
+	5)
+		echo"Enter the name of the file to be removed"
+		read a
+		rm()
+		{
+			cat $1|rm $a
+		} 
+                r=$(rm $a)
+		;;
+	*)
+		echo"Invalid Choice"
+            
+	
+
+
+   
+
+
+
+
+
+
+
+
+
+
