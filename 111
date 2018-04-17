@@ -1,0 +1,24 @@
+Who logged in
+
+
+
+echo "1.current user"
+echo "2.All the users"
+echo "3.Exit"
+echo "enter the option"
+read n
+case $n in
+        1) whoami ;;
+        2) who -q ;;
+        3) break ;;
+esac
+
+
+//1.current user
+  2.All the users
+  3.Exit
+  enter the option
+  2
+  cs2016b110
+  # users=1
+
